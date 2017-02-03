@@ -1,0 +1,19 @@
+<!DOCTYPE  html>
+<html lang="en-us">
+<head>
+<title>Meters to Centimeters</title>
+<script type="text/javascript">
+function mToCm() {
+	var text = document.getElementById('meterInputBox').value;
+    var m = parseFloat(text);
+    var cm = m * 100;
+    document.getElementById('cmDiv').innerHTML = cm;
+}
+    </script>    
+</head>
+<body>
+Enter a measurement in meters: <input type="text" id="meterInputBox">
+<button type="button" onclick="mToCm()">Convert</button>
+<div id="cmDiv"></div>
+</body>
+</html>

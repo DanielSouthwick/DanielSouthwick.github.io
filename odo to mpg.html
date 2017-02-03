@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Miles Per Gallon</title>
+    <script type="text/javascript">
+        function odoToMpg() {
+            var text1 = document.getElementById('odo1InputBox').value;
+            var text2 = document.getElementById('odo2InputBox').value;
+            var text3 = document.getElementById('guInputBox').value;
+            var o1 = parseFloat(text1);
+            var o2 = parseFloat(text2);
+            var gu = parseFloat(text3);
+            var m = o2 - o1;
+            var mpg = m / gu;
+            document.getElementById('mpgDiv').innerHTML = mpg;
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Miles Per Gallon Evaluation</h1> Enter beginning odometer reading:
+    <input type="text" id="odo1InputBox"> <br><br> Enter ending odometer reading:
+    <input type="text" id="odo2InputBox"> <br><br>Enter gallons of gas used:
+    <input type="text" id="guInputBox">
+    <button type="button" onclick=" odoToMpg()">Evaluate</button>
+    <div id="mpgDiv"></div>
+
+</body>
+
+</html>

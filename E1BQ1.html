@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<title>How Many Acres?</title>
+<script type="text/javascript">
+    function findAcres() {
+            var text1 = document.getElementById('widthInputBox').value;
+            var width = parseFloat(text1);
+            var text2 = document.getElementById('lengthInputBox').value;
+            var length = parseFloat(text2);
+            var acres = (width * length) / 43560;
+            document.getElementById('acreDiv').innerHTML = acres;
+        }
+</script>
+</head>
+
+<body>
+    <h1>How Many Acres?</h1>
+    Width (feet) <input type="text" id="widthInputBox"><br>
+    Length (feet) <input type="text" id="lengthInputBox"><br>
+    <button type="button" onclick="findAcres()">Acres</button><br>
+    Size (acres) <div id="acreDiv"></div>
+</body>
+</html>

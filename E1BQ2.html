@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<title>How Many Acres?</title>
+<script type="text/javascript">
+    function findVolume() {
+            var text = document.getElementById('lengthInputBox').value;
+            var length = parseFloat(text);
+            var x = 6 * Math.sqrt(2)
+            var volume = (length * length * length) / x;
+            document.getElementById('volumeDiv').innerHTML = volume;
+        }
+</script>
+</head>
+
+<body>
+    <h1>Volume of a Tetrahedron</h1>
+    Side Length <input type="text" id="lengthInputBox"><br>
+    <button type="button" onclick="findVolume()">Volume</button><br>
+    Volume <div id="volumeDiv"></div>
+</body>
+</html>
