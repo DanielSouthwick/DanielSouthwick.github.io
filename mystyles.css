@@ -1,4 +1,8 @@
 body {
     background-image: url(Background%20for%20Star%20Weather.PNG);
+    background-size: cover;
     color: azure;
+}
+h1 {
+    color: azure
 }
