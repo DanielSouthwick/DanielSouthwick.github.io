@@ -1,8 +1,21 @@
 body {
+    font-size: 200%;
     background-image: url(Background%20for%20Star%20Weather.PNG);
     background-size: cover;
     color: azure;
+    text-align: center;
+    border-style: solid;
+    border-color: aliceblue;
+    border-width: 31px;
+    height: 100%;
 }
-h1 {
-    color: azure
+
+ul {
+    text-align: center;
+    padding: 8px 0px;
+    
+}
+
+a {
+    color: aliceblue
 }
