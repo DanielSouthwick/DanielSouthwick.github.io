@@ -178,7 +178,7 @@ div.scrollmenu li {
     color: white;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 20px;
+    padding-right: 35px;
     padding-left: 20px;
     text-align: center;
     margin: 0px;
@@ -194,6 +194,6 @@ div.scrollmenu li:hover{
 footer {
     background-color: steelblue;
     margin: auto;
-    padding: 20px;
+    padding: 24px;
     text-align: center;
 }              
