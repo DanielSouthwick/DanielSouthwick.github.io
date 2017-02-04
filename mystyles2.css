@@ -10,11 +10,11 @@ header {
     background-color: steelblue;
     color: azure; 
     width: 100%;
-    font-size: 150%;
+    font-size: 80%;
     text-align: center;
     margin-top: 0;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 nav {
@@ -71,7 +71,7 @@ a {
     text-align: center;
     margin: auto;
     margin-bottom: -.2em;
-    margin-top: .2em;
+    margin-top: -.2em;
     align-items: center;
 }
 
