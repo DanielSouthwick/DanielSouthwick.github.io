@@ -16,7 +16,7 @@ header {
     text-align: center;
     margin-top: 0;
     padding-top: 24px;
-    padding-bottom:  24px;
+    padding-bottom: 24px;
 }
 
 nav {
@@ -28,9 +28,11 @@ nav {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 a {
-    padding: 24px;
+    padding: 25px;
 }
+
 #tempblk1 {
     color: lightblue;
     width: 60%;
@@ -57,13 +59,12 @@ a {
     width: 60%;
     text-align: center;
     margin: auto;
-    margin-bottom: -60px; 
+    margin-bottom: -60px;
     height: 1.6em;
     font-size: 120%;
 }
 
 #tempblk3 {
-  
     color: azure;
     font-size: 700%;
     width: 60%;
@@ -71,7 +72,6 @@ a {
     margin: auto;
     margin-bottom: -.2em;
     margin-top: .2em;
-   
     align-items: center;
 }
 
@@ -87,37 +87,47 @@ a {
     text-align: center;
     margin-bottom: 5px;
 }
+
 #hf {
     font-size: 180%;
     margin: 0px;
 }
+
 #hfdate {
     margin: 0px;
 }
+
 ul li {
-    width: 100%;
-    margin-right: auto;
+    width: 10%;
+    
 }
 
 #hfdata ul {
     height: auto;
+    display: inline;
     padding: 8px 0px;
     margin: 0px;
 }
+
 dt {
     color: lightblue
 }
+
 #hfdata li {
-    display: inline;
+    background-image:url("Background for Star Weather.PNG");
+    display: inline-block;
     padding: 30px;
     margin: 0px;
-    
-    }
+    margin-bottom: 5px;
+    font-size: 80%;
+}
+
 #hfdata {
     color: aliceblue;
     display: inline;
-    background-color: lightslategray
+    background-color:
 }
+
 #wfblk {
     background-color: steelblue;
     color: lightblue;
@@ -125,14 +135,66 @@ dt {
     text-align: center;
     margin-bottom: 5px;
 }
+
 #wf {
     font-size: 180%;
     margin: 0px;
 }
+
 #wfdate {
     margin: 0px;
 }
-#wfdata {
-    color: aliceblue;display:inline;
-    background-color: lightslategray
+
+#wfdata ul {
+    height: auto;
+    display: inline;
+    padding: 8px 0px;
+    margin: 0px;
 }
+
+#wfdata li {
+    background-image: url("Background for Star Weather.PNG");
+    display: inline-block;
+    padding: 30px;
+    margin: 0px;
+    margin-bottom: 5px;
+    font-size: 80%;
+    border: auto;
+    border-color: azure; 
+}
+
+#wfdata {
+    color: aliceblue;
+    display: inline;
+}
+
+div.scrollmenu {
+    background-image: url("Background for Star Weather.PNG");
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu li {
+    display: inline-block;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 0px;
+    font-size: 80%;
+    border-style: solid;
+    border-color: azure; 
+}
+
+div.scrollmenu li:hover{
+    
+}
+footer {
+    background-color: steelblue;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}              
