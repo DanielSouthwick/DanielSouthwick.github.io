@@ -78,6 +78,7 @@ a {
 #windblk {
     color: lightblue;
     text-align: center;
+    font-size: 80%;
 }
 
 #hfblk {
@@ -184,7 +185,7 @@ div.scrollmenu li {
     text-align: center;
     margin: 0px;
     margin-bottom: 0px;
-    font-size: 80%;
+    font-size: 85%;
     border-style: solid;
     border-color: azure; 
 }
