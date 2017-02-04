@@ -1,6 +1,6 @@
 body {
     font-size: 200%;
-    background-image: url(20160318_145845.jpg);
+    background-color: black;
     background-size: cover;
     color: azure;
     text-align: center;
@@ -13,9 +13,8 @@ body {
 ul {
     text-align: center;
     padding: 8px 0px;
-    color: black;
 }
 
 a {
-    color: black;
+    
 }
