@@ -35,7 +35,7 @@ a {
 
 #tempblk1 {
     color: lightblue;
-    width: 60%;
+    width: 65%;
     margin: auto;
     margin-bottom: 23px;
     height: 1.6em;
@@ -56,18 +56,18 @@ a {
 
 #tempblk2 {
     color: lightblue;
-    width: 60%;
+    width: 65%;
     text-align: center;
     margin: auto;
     margin-bottom: -60px;
     height: 1.6em;
-    font-size: 120%;
+    font-size: 110%;
 }
 
 #tempblk3 {
     color: azure;
     font-size: 700%;
-    width: 60%;
+    width: 65%;
     text-align: center;
     margin: auto;
     margin-bottom: -.2em;
@@ -78,7 +78,7 @@ a {
 #windblk {
     color: lightblue;
     text-align: center;
-    font-size: 80%;
+    font-size: 90%; 
 }
 
 #hfblk {
