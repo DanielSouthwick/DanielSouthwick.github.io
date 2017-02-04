@@ -8,12 +8,15 @@ body {
     background-size: cover;
 }
 
-h1 {
+header {
+    font-family: sans-serif;
     background-color: steelblue;
     width: 100%;
+    font-size: 140%;
     text-align: center;
     margin-top: 0;
-    margin-bottom: auto;
+    padding-top: 24px;
+    padding-bottom:  24px;
 }
 
 nav {
@@ -21,14 +24,20 @@ nav {
     text-align: center;
     background-color: lightsteelblue;
     margin-left: auto;
+    margin-bottom: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-
+a {
+    padding: 24px;
+}
 #tempblk1 {
+    color: lightblue;
     width: 60%;
     margin: auto;
+    margin-bottom: 23px;
     height: 1.6em;
     text-align: center;
-    background-color: steelblue;
 }
 
 #tempblk1 ul {
@@ -44,38 +53,47 @@ nav {
 }
 
 #tempblk2 {
-    background-color: lightsteelblue;
+    color: lightblue;
     width: 60%;
     text-align: center;
     margin: auto;
+    margin-bottom: -60px; 
     height: 1.6em;
-    font-size: 140%;
+    font-size: 120%;
 }
 
 #tempblk3 {
-    background-color: steelblue;
+  
     color: azure;
     font-size: 700%;
     width: 60%;
     text-align: center;
-    margin-bottom: .2em;
-    margin-top: .2em;
     margin: auto;
+    margin-bottom: -.2em;
+    margin-top: .2em;
+   
     align-items: center;
 }
 
 #windblk {
-    background-color: steelblue;
+    color: lightblue;
     text-align: center;
 }
 
-h3 {
+#hfblk {
     background-color: steelblue;
+    color: lightblue;
     font-family: 'Raleway' sans-serif;
     text-align: center;
     margin-bottom: 5px;
 }
-
+#hf {
+    font-size: 180%;
+    margin: 0px;
+}
+#hfdate {
+    margin: 0px;
+}
 ul li {
     width: 100%;
     margin-right: auto;
@@ -86,17 +104,35 @@ ul li {
     padding: 8px 0px;
     margin: 0px;
 }
-
+dt {
+    color: lightblue
+}
 #hfdata li {
     display: inline;
     padding: 30px;
     margin: 0px;
-}
+    
+    }
 #hfdata {
-    display: inline-block;
+    color: aliceblue;
+    display: inline;
     background-color: lightslategray
 }
+#wfblk {
+    background-color: steelblue;
+    color: lightblue;
+    font-family: 'Raleway' sans-serif;
+    text-align: center;
+    margin-bottom: 5px;
+}
+#wf {
+    font-size: 180%;
+    margin: 0px;
+}
+#wfdate {
+    margin: 0px;
+}
 #wfdata {
-    display:inline-block;
+    color: aliceblue;display:inline;
     background-color: lightslategray
 }
