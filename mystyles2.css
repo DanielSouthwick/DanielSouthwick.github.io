@@ -8,6 +8,7 @@ body {
 header {
     font-family: sans-serif;
     background-color: steelblue;
+    color: azure; 
     width: 100%;
     font-size: 150%;
     text-align: center;
