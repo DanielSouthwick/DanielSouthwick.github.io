@@ -78,7 +78,7 @@ a {
 #windblk {
     color: lightblue;
     text-align: center;
-    font-size: 38px;
+    font-size: 34px;
 }
 
 #hfblk {
@@ -143,7 +143,7 @@ div.scrollmenuwf li {
     text-align: center;
     margin: 0px;
     margin-bottom: 0px;
-    font-size: 26px;
+    font-size: 32px;
     border-style: solid;
     border-color: azure;
 }
@@ -160,7 +160,7 @@ div.scrollmenuhf li {
     text-align: center;
     margin: 0px;
     margin-bottom: 0px;
-    font-size: 26px;
+    font-size: 32px;
     border-style: solid;
     border-color: azure;
 }
