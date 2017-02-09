@@ -1,17 +1,16 @@
 body {
-    font-size: 210%;
     background-image: url(Background%20for%20Star%20Weather.PNG);
     background-repeat: no-repeat;
     background-size: cover;
+    font-size: 130%;
 }
 
 header {
-    font-family: sans-serif;
     background-color: steelblue;
-    color: azure; 
+    color: azure;
     width: 100%;
-    font-size: 80%;
     text-align: center;
+    font-size: 1.2em;
     margin-top: 0;
     padding-top: 4px;
     padding-bottom: 4px;
@@ -25,7 +24,7 @@ nav {
     margin-bottom: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 120%;
+    font-size: 1.6em;
 }
 
 a {
@@ -36,9 +35,10 @@ a {
     color: lightblue;
     width: 65%;
     margin: auto;
-    margin-bottom: 23px;
+    margin-bottom: 52px;
     height: 1.6em;
     text-align: center;
+    
 }
 
 #tempblk1 ul {
@@ -51,7 +51,7 @@ a {
     display: inline;
     padding: 30px;
     margin: 0px;
-    font-size: 120%;
+    font-size: 38px;
 }
 
 #tempblk2 {
@@ -59,15 +59,15 @@ a {
     width: 65%;
     text-align: center;
     margin: auto;
-    margin-bottom: -60px;
+    margin-bottom: 10px;
     height: 1.6em;
-    font-size: 130%;
+    font-size: 42px;
 }
 
 #tempblk3 {
     color: azure;
-    font-size: 900%;
-    width: 65%;
+    font-size: 280px;
+    width: 80%;
     text-align: center;
     margin: auto;
     margin-bottom: -.2em;
@@ -78,122 +78,117 @@ a {
 #windblk {
     color: lightblue;
     text-align: center;
-    font-size: 110%; 
+    font-size: 38px;
 }
 
 #hfblk {
     background-color: steelblue;
     color: lightblue;
-    font-family: sans-serif;
     text-align: center;
     margin-bottom: 5px;
+    padding: 20px;
 }
 
 #hf {
-    font-size: 180%;
+    font-size: 60px;
     margin: 0px;
 }
 
 #hfdate {
     margin: 0px;
-}
-
-ul li {
-    width: 10%;
-    
-}
-
-#hfdata ul {
-    height: auto;
-    display: inline;
-    padding: 8px 0px;
-    margin: 0px;
+    display: none;
+    font-size: 30px
 }
 
 dt {
-    color: lightblue
-}
-
-#hfdata li {
-    background-image:url("Background for Star Weather.PNG");
-    display: inline-block;
-    padding: 30px;
-    margin: 0px;
-    margin-bottom: 5px;
-    font-size: 80%;
-}
-
-#hfdata {
-    color: aliceblue;
-    display: inline;
+    color: lightblue;
 }
 
 #wfblk {
     background-color: steelblue;
     color: lightblue;
-    font-family: sans-serif;
     text-align: center;
     margin-bottom: 5px;
+    padding: 20px;
 }
 
 #wf {
-    font-size: 180%;
+    font-size: 60px;
     margin: 0px;
 }
 
 #wfdate {
     margin: 0px;
+    display: none;
+    font-size: 30px;
 }
 
-#wfdata ul {
-    height: auto;
-    display: inline;
-    padding: 8px 0px;
-    margin: 0px;
-}
-
-#wfdata li {
-    background-image: url("Background for Star Weather.PNG");
-    display: inline-block;
-    padding: 30px;
-    margin: 0px;
-    margin-bottom: 5px;
-    font-size: 80%;
-    border-color: azure; 
-}
-
-#wfdata {
-    color: aliceblue;
-    display: inline;
-}
-
-div.scrollmenu {
-    background-image: url("Background for Star Weather.PNG");
+div.scrollmenuhf {
     overflow: auto;
     white-space: nowrap;
 }
 
-div.scrollmenu li {
+div.scrollmenuwf {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenuwf li {
     display: inline-block;
     color: white;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 35px;
-    padding-left: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
     text-align: center;
     margin: 0px;
     margin-bottom: 0px;
-    font-size: 105%;
+    font-size: 26px;
     border-style: solid;
-    border-color: azure; 
+    border-color: azure;
 }
 
-div.scrollmenu li:hover{
-    
+div.scrollmenuwf li:hover {}
+
+div.scrollmenuhf li {
+    display: inline-block;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 0px;
+    font-size: 26px;
+    border-style: solid;
+    border-color: azure;
 }
+
+div.scrollmenuhf li:hover {}
+
 footer {
     background-color: steelblue;
     margin: auto;
-    padding: 24px;
+    padding: 29px;
     text-align: center;
-}              
+    font-size: 32px;
+}
+
+@media only screen and (min-width:800px) {
+    body {
+        background-color: goldenrod;
+    }
+    #hfdate {
+        display: inline;
+    }
+    #wfblock {
+        padding: 10px;
+    }
+    #hfblock {
+        padding: 10px;
+    }
+    #wfdate {
+        display: inline;
+    }
+}
