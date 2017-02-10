@@ -171,12 +171,72 @@ div.scrollmenuhf li:hover {}
 footer {
     background-color: steelblue;
     margin: auto;
-    padding: 29px;
+    padding: 0px;
     text-align: center;
-    font-size: 32px;
+    font-size: 26px;
 }
 
-@media only screen and (min-device-width:400px) {
+@media only screen and (min-device-width:420px) {
+    body {
+        background-color: goldenrod;
+    }
+    header {
+        height: 100px;
+    }
+    nav {
+        font-size: 30px;
+    }
+    #hfdate {
+        display: inline;
+    }
+    #wfblk {
+        padding: 0px;
+    }
+    #hfblk {
+        padding: 0px;
+    }
+    #wfdate {
+        display: inline;
+    }
+    #hf {
+        font-size: 52px;
+    }
+    #wf {
+        font-size: 52px;
+    }
+    #tempblk1 li {
+        font-size: 25px;
+        display: list-item;
+        margin-top: -40px;
+        padding: 19px;
+    }
+    #tempblk1 {
+        margin-left: -49px;
+        margin-bottom: 12px;
+        padding: 2px;
+    }
+    #tempblk2 {
+        margin-left: -50px;
+        margin-bottom: -154px;
+        font-size: 25px;
+    }
+    #tempblk3 {
+        margin-top:25px;
+        margin-right: 0px;
+        margin-bottom: -165px;
+        width: 55%;
+        font-size: 220px;
+        text-align: center;
+    }
+    #windblk {
+        margin-left: -50px;
+        width: 65%;
+        font-size: 25px;
+        margin-top: 6px;
+    }
+}
+
+@media only screen and (min-device-width: 800px) {
     body {
         background-color: goldenrod;
     }
@@ -191,5 +251,108 @@ footer {
     }
     #wfdate {
         display: inline;
+    }
+    #tempblk1 li {
+        font-size: 32px;
+        display: list-item;
+        margin-top: -40px;
+        padding: 19px;
+    }
+    #tempblk1 {
+        margin-left: -49px;
+        margin-bottom: 25px;
+        padding: 2px;
+    }
+    #tempblk2 {
+        margin-left: -50px;
+        margin-bottom: -150px;
+        font-size: 32px;
+    }
+    #tempblk3 {
+        margin-right: 25px;
+        margin-bottom: -210px;
+        width: 55%;
+    }
+    #windblk {
+        margin-left: -50px;
+        width: 65%;
+        font-size: 32px;
+    }
+}
+@media only screen and (orientation:landscape){
+    body {
+        background-color: goldenrod;
+    }
+    header {
+        height: 125px;
+        width: 80%;
+        font-size: 25px;
+    }
+    nav {
+        width: 20%;
+        margin-top: -133px;
+        text-align: left; 
+        height: 112px
+    }
+    a {
+        display: inline;
+        padding: 12px;
+        font-size: 23px;
+        margin-left: 4px
+    }
+     nav a {
+        font-size: 22px;   
+    }
+    #hfdate {
+        display: none;
+    }
+    #wfblk {
+        padding: 0px;
+    }
+    #hfblk {
+        padding: 0px;
+    }
+    #wfdate {
+        display: none;
+    }
+    #hf {
+        font-size: 52px;
+    }
+    #wf {
+        font-size: 52px;
+    }
+    #tempblk1 li {
+        font-size: 25px;
+        display: list-item;
+        margin-top: -40px;
+        padding: 19px;
+    }
+    #tempblk1 {
+        margin-left: -49px;
+        margin-bottom: 12px;
+        padding: 2px;
+    }
+    #tempblk2 {
+        margin-left: -50px;
+        margin-bottom: -154px;
+        font-size: 25px;
+    }
+    #tempblk3 {
+        margin-top:25px;
+        margin-right: 0px;
+        margin-bottom: -165px;
+        width: 55%;
+        font-size: 220px;
+        text-align: center;
+    }
+    #windblk {
+        margin-left: -50px;
+        width: 65%;
+        font-size: 25px;
+        margin-top: px;
+    }
+    footer {
+        display: inline-block;
+        width: 100%;   
     }
 }
