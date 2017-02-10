@@ -69,16 +69,17 @@ a {
     font-size: 280px;
     width: 80%;
     text-align: center;
-    margin: auto;
+    margin:  auto;
     margin-bottom: -.2em;
     margin-top: -.2em;
     align-items: center;
+    font-family: "Russo One"
 }
 
 #windblk {
     color: lightblue;
     text-align: center;
-    font-size: 34px;
+    font-size: 38px;
 }
 
 #hfblk {
@@ -143,7 +144,7 @@ div.scrollmenuwf li {
     text-align: center;
     margin: 0px;
     margin-bottom: 0px;
-    font-size: 32px;
+    font-size: 26px;
     border-style: solid;
     border-color: azure;
 }
@@ -160,7 +161,7 @@ div.scrollmenuhf li {
     text-align: center;
     margin: 0px;
     margin-bottom: 0px;
-    font-size: 32px;
+    font-size: 26px;
     border-style: solid;
     border-color: azure;
 }
@@ -175,7 +176,7 @@ footer {
     font-size: 32px;
 }
 
-@media only screen and (min-width:800px) {
+@media only screen and (min-device-width:400px) {
     body {
         background-color: goldenrod;
     }
