@@ -4,7 +4,7 @@ body {
     background-size: cover;
     font-size: 130%;
 }
-
+ 
 header {
     background-color: steelblue;
     color: azure;
@@ -79,7 +79,7 @@ a {
 #windblk {
     color: lightblue;
     text-align: center;
-    font-size: 38px;
+    font-size: 32px;
 }
 
 #hfblk {
@@ -144,7 +144,7 @@ div.scrollmenuwf li {
     text-align: center;
     margin: 0px;
     margin-bottom: 0px;
-    font-size: 26px;
+    font-size: 30px;
     border-style: solid;
     border-color: azure;
 }
@@ -161,7 +161,7 @@ div.scrollmenuhf li {
     text-align: center;
     margin: 0px;
     margin-bottom: 0px;
-    font-size: 26px;
+    font-size: 30px;
     border-style: solid;
     border-color: azure;
 }
@@ -172,6 +172,8 @@ footer {
     background-color: steelblue;
     margin: auto;
     padding: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
     font-size: 26px;
 }
@@ -244,10 +246,10 @@ footer {
         display: inline;
     }
     #wfblock {
-        padding: 10px;
+        padding: 0px;
     }
     #hfblock {
-        padding: 10px;
+        padding: 0px;
     }
     #wfdate {
         display: inline;
@@ -260,13 +262,13 @@ footer {
     }
     #tempblk1 {
         margin-left: -49px;
-        margin-bottom: 25px;
+        margin-bottom: 12px;
         padding: 2px;
     }
     #tempblk2 {
         margin-left: -50px;
-        margin-bottom: -150px;
-        font-size: 32px;
+        margin-bottom: -154px;
+        font-size: 24px;
     }
     #tempblk3 {
         margin-right: 25px;
@@ -304,7 +306,9 @@ footer {
         font-size: 22px;   
     }
     #hfdate {
-        display: none;
+        display: inline-block;
+        margin-right: -250px;
+        
     }
     #wfblk {
         padding: 0px;
@@ -313,13 +317,18 @@ footer {
         padding: 0px;
     }
     #wfdate {
-        display: none;
+        display: inline-block;
+        margin-right: -250px;
     }
     #hf {
-        font-size: 52px;
+        font-size: 42px;
+        text-align: center;
+        margin-left: -250px;
     }
     #wf {
-        font-size: 52px;
+        font-size: 42px;
+        text-align: center;
+        margin-left: -250px;
     }
     #tempblk1 li {
         font-size: 25px;
@@ -349,10 +358,41 @@ footer {
         margin-left: -50px;
         width: 65%;
         font-size: 25px;
-        margin-top: px;
     }
     footer {
         display: inline-block;
         width: 100%;   
+    }
+}
+@media only screen and (min-device-width:1000px) {
+    #tempblk1 li {
+        font-size: 25px;
+        display: list-item;
+        margin-top: -40px;
+        padding: 19px;
+    }
+    #tempblk1 {
+        margin-left: -49px;
+        margin-bottom: 12px;
+        padding: 2px;
+    }
+    #tempblk2 {
+        margin-left: -50px;
+        margin-bottom: -154px;
+        font-size: 25px;
+    }
+    #tempblk3 {
+        margin-top:25px;
+        margin-right: 0px;
+        margin-bottom: -165px;
+        width: 55%;
+        font-size: 200px;
+        text-align: center;
+    }
+    #windblk {
+        margin-left: -50px;
+        width: 65%;
+        font-size: 25px;
+        margin-top: 47px;
     }
 }
