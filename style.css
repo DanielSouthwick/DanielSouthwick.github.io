@@ -51,7 +51,6 @@ h1 {
 
 .page-header {
     text-align: center;
-    border-image: url(nps-logo-50.png);
     background-image: url(grand-canyon-banner-400.jpg);
     flex-grow: 1;
 
@@ -193,7 +192,7 @@ h1 {
 		line-height: 1.375;
 	}
 	.featured-image {
-        background-image: url(trail-800.jpg);
+       		background-image: url(trail-800.jpg);
 		margin: 0 1em 1em 0;
 		float: left;
 		width: 50%;
